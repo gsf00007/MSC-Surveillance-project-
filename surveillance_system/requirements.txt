@@ -1,0 +1,19 @@
+# install with:  pip install -r requirements.txt
+
+numpy
+torch
+torchvision
+scikit-learn
+matplotlib
+joblib
+tqdm
+
+ultralytics          # YOLOv8 + ByteTrack
+mediapipe==0.10.9    # newer versions removed the API this uses
+opencv-python
+
+flask                # dashboard
+flask-socketio
+
+twilio               # emergency calls
+shap                 # explaining decisions
